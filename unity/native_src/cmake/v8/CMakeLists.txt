@@ -7,3 +7,5 @@ else ()
         libwee8.a
     )
 endif ()
+
+target_compile_definitions (puerts PRIVATE WITH_INSPECTOR)
